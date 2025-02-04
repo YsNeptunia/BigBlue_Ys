@@ -48,5 +48,10 @@ https://github.com/user-attachments/assets/106b4148-775f-4484-b51f-987c8159d40d
 
   从立项到最终完成时间大约一个月。最终可以实现稳定在90秒内抓取所有球。
 
+  ## 说明
+  ### Car压缩包内为32下位机的代码工程文件，使用STM32CubeMX的HAL库开发，环境为Keil5和VS Code。
+  ### onnxruntime1压缩包内为上位机的yolov5代码和串口通信代码。环境为Jetson Nano中的Linux系统，安装Pytorch等。
+  ### STL文件夹为小车的建模工程文件。
+
   
 
