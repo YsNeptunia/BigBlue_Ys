@@ -28,7 +28,7 @@
   ![image](https://github.com/user-attachments/assets/4efc2799-f705-495f-805b-f9b7af9495db)
 
 
-  对于视觉部分，这部分的代码由我的队友1负责。最初我们使用的嵌入式上位机是树莓派4b，但是其算力实在有限，精简后的YoloV5Lite算法只能跑到不到10帧，这对于有时间要求的题目而言显然是远远不足的。
+  对于视觉部分，这部分的代码由有经验的队友1负责（队友2比较新手，我就让他负责上下位机通信协议部分了）。最初我们使用的嵌入式上位机是树莓派4b，但是其算力实在有限，精简后的YoloV5Lite算法只能跑到不到10帧，这对于有时间要求的题目而言显然是远远不足的。
   后来我们尝试了英伟达的JetsonNano开发板，由于可以调用GPU，同样的算法可以达到稳定30帧，最终决定了该方案。
   ![1738659613912](https://github.com/user-attachments/assets/6e3c4acb-9b86-41dd-ad57-7e16bf4897c2)
 
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/106b4148-775f-4484-b51f-987c8159d40d
   从立项到最终完成时间大约一个月。最终可以实现稳定在90秒内抓取所有球。
 
   ## 说明
-  ### Car压缩包内为32下位机的代码工程文件，使用STM32CubeMX的HAL库开发，环境为Keil5和VS Code。
+  ### Car压缩包内为32下位机的代码工程文件，使用STM32CubeMX的HAL库开发，环境为Keil5和VS Code等。
   ### onnxruntime1压缩包内为上位机的yolov5代码和串口通信代码。环境为Jetson Nano中的Linux系统，安装Pytorch等。
   ### STL文件夹为小车的建模工程文件。
 
